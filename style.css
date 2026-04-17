@@ -1,0 +1,153 @@
+body{
+background-image: 
+url("background.jpg");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+
+
+
+
+}
+
+
+
+
+
+* {                  /*العلامه دي عشان تطبق الكلام علي كل الصفحه*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+
+header {
+    background-color: #113f44;
+    color: rgb(0, 237, 254);
+    text-align: center;
+    padding: 10px;
+}
+
+nav {
+    background-color: #08344d;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;/*يشيل الخطوط الي تحت الكلام  */
+    margin:30px;/*المسافه بين كل كلمه */
+    font-weight: bold ;
+}
+
+
+nav a:hover {                     /*لما الماوس يقف فوق الكلمه*/
+    color: #f1870f;
+}
+
+/* Main */
+main {
+    padding: 40px;
+    text-align: center;
+}
+
+/* Section */
+.welcome {
+    margin-top: 50px;
+}
+
+/* Footer */
+footer {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
+
+table {
+    width: 88%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #000000;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #95253b;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f8f8;
+}
+tr:nth-child(odd){
+    background-color: #a4cbf3;
+}
+
+
+
+form {
+    width: 60%;
+    margin: 20px auto;
+    text-align: left ;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+button {
+    background-color: #0aa13d;
+    color: white;
+    padding: 10px;
+    border-radius:5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #db990b;
+    color: rgb(0, 0, 0);
+}
+
+
+@media (max-width: 768px) {/*عشان عرض الشاشه في الفون */
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+
+    form {
+        width: 90%;
+    }
+
+    table {
+        width: 100%;
+    }
+}
+
+
+
+.hero-img {
+    width:80%;
+    height: auto;
+    margin-top: 40px;
+    border-radius: 10px;
+
+}
+  
+
